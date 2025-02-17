@@ -41,6 +41,7 @@ footer{
 .footerNav ul{
     display: flex;
     justify-content: center;
+    list-style-type: none;
 }
 .footerNav ul li a{
     color: white;
@@ -67,5 +68,15 @@ footer{
     letter-spacing: 1px;
     font-weight: 400;
     margin: 0px 5px;
+}
+@media (max-widt: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
 }
 
